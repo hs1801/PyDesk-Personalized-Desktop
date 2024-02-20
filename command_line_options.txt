@@ -1,0 +1,80 @@
+------- COMMAND-LINE OPTIONS
+	  - COMMON APPS -----------
+M S WORD
+
+extensions = ['.docx', '.txt', '.doc']	# other text exts
+<app> = ...winword.exe
+
+APP OPTIONS:
+1. Open: <app>
+2. Open (no splash): <app> /q
+
+FILE OPTIONS:
+1. Open File: <app> /t <file>
+2. Open as new: <app> /f <file>
+------------------------------------
+M S EXCEL
+
+extensions = ['.xlsx']
+<app> = ...excel.exe
+
+APP OPTIONS:
+1. Open: <app>
+
+FILE OPTIONS:
+1. Open File: <app> <file>
+2. Read Only : <app> /r <file>
+3. New Instance: <app> /x <file>
+------------------------------------
+M S PowerPoint
+
+extensions = ['.ppt', '.pptx']
+<app> = ...powerpnt.exe
+
+APP OPTIONS:
+1. New: <app> /N
+2. New (Blank): <app> /B
+
+FILE OPTIONS:
+1. Open File: <app> /O <file>
+2. Print: <app> /PWO <file>
+------------------------------------
+Adobe Acrobat
+
+extensions = ['.pdf']
+<app> = ...Acrobat.exe
+
+APP OPTIONS:
+1. Open: <app>
+
+FILE OPTIONS:
+1. Open File: <app> /A <file>
+2. Open (new instance): <app> /n <file>
+------------------------------------
+Windows Media Player
+
+extensions = ['.mp4', '.mp3', '.wma', '.wmv'] # other audio/video exts
+<app> = ...wmplayer.exe
+
+APP OPTIONS:
+1. Open: <app>
+
+FILE OPTIONS:
+1. Open File: <app> <file>
+2. Open (Fullscreen): <app> <file> /fullscreen
+------------------------------------
+GIMP 2.8
+
+extensions = ['.png', '.jpeg', '.gif'] # other image exts
+<app> = ...gimp-2.8.exe
+
+APP OPTIONS:
+1. New: <app> -a
+
+FILE OPTIONS:
+1. Quick Open: <app> -a -f -d -s <file>
+2. Edit: <app> -a <file>
+3. Edit (no fonts): <app> -a -f <file>
+------------------------------------
+
+
